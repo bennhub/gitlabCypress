@@ -1,0 +1,29 @@
+{
+  "name": "cypress-example-docker-gitlab",
+  "version": "1.0.0",
+  "description": "> Cypress + Docker + GitLabCI = ❤️",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/cypress-io/cypress-example-docker-gitlab.git"
+  },
+  "keywords": [
+    "cypress",
+    "cypress-io",
+    "example",
+    "gitlab"
+  ],
+  "author": "gleb@cypress.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/cypress-io/cypress-example-docker-gitlab/issues"
+  },
+  "homepage": "https://gitlab.com/cypress-io/cypress-example-docker-gitlab#README",
+  "devDependencies": {
+    "cypress": "3.1.0"
+  }
+}
